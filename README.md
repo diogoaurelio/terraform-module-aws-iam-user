@@ -1,7 +1,7 @@
 Terraform AWS module for creating an AWS IAM user
 =========================================================
 
-Generic repository for a terraform module for AWS lambda functions
+Generic repository for a terraform module for AWS IAM user
 
 ![Image of Terraform](https://i.imgur.com/Jj2T26b.jpg)
 
@@ -30,7 +30,7 @@ Example usage:
 
 ```hcl
 module "jdoe" {
-  source                        = "github.com/diogoaurelio/terraform-module-aws-compute-lambda"
+  source                        = "github.com/diogoaurelio/terraform-module-aws-iam-user"
   version                       = "v0.0.1"
   name                          = "jdoe"
   create_user                   = true
